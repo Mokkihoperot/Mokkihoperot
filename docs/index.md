@@ -69,8 +69,8 @@ div.tooltip {
 <script>
  //määritellään kuvion koko
 var margin = {top: 10, right: 90, bottom: 70, left: 60},
-    width = 850 - margin.left - margin.right,
-    height = 850 - margin.top - margin.bottom;
+    width = 700 - margin.left - margin.right,
+    height = 700 - margin.top - margin.bottom;
 
  //määritellään aineisto   
  var data = [
