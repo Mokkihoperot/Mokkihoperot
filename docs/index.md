@@ -64,8 +64,9 @@ div.tooltip {
 
 <select id="selectButton"></select>
 <script src="https://d3js.org/d3.v4.js"></script>
-<script>
+
 <div id="svg">
+<script>
  //määritellään kuvion koko
 var margin = {top: 10, right: 90, bottom: 70, left: 60},
     width = 850 - margin.left - margin.right,
@@ -357,9 +358,9 @@ var g = svg.append("g")
 
       })
    
-  
+ </script> 
 </div>
-</script>
+
 ### Mökkihöperöt-joukkue
 * Ville Keränen
 * Matti Kokkonen
