@@ -293,7 +293,7 @@ var g = svg.append("g")
             .attr("cx", x(selectedData.x))  
             .attr("cy", y(selectedData.y))
             div
-            .html(selectedData.kuukausi + "<br> Yöpymisiä:" + Math.round(selectedData.value)+  "<br>" + selectedData.teksti +"<br> <img src='"+selectedData.kuukausi+"'>")
+            .html(selectedData.kuukausi + "<br> Yöpymisiä:" + Math.round(selectedData.value)+  "<br>" + selectedData.teksti +"<br> <img src='"+selectedData.kuvio+"'>")
             .style("left", (d3.event.pageX) + "px")		
             .style("top", (d3.event.pageY - 28) + "px");	
          });
