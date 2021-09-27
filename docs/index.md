@@ -367,9 +367,9 @@ var g = svg.append("g")
 
 ### Visualisoinnin sisältö
 
-Visualisoinnissa on esitetty viivakuviolla tasoitettuna aikasarjana yöpymisten määärän kehitys tammikuusta 2018 huhtikuuhun 2021. Tälle aikajaksolle osui yksi viime aikojen suurimmista globaaleista kriiseistä, joka myös näkyy visualisoinissa. Varsinkin ulkomaalaisten matkailijoiden yöpymiset ovat pudonneet erittäin merkittävästi. 
+Visualisoinnissa on esitetty viivakuviolla tasoitettuna aikasarjana yöpymisten määärän kehitys tammikuusta 2018 huhtikuuhun 2021. Tälle aikajaksolle osui yksi viime aikojen suurimmista globaaleista kriiseistä, joka myös näkyy visualisoinnissa. Varsinkin ulkomaalaisten matkailijoiden yöpymiset ovat pudonneet erittäin merkittävästi. 
 
-Kriisin jälkeen on ollu nähtävissä toipumista kesän 2020 aikana, varsinkin kotimaisten matkailijoiden keskuudessa, koska rajat ovat olleet suljettuina. Alhaiset matkailijaluvut näkyvät myös vuoden 2021 luvuissa suurina kasvuprosentteina, kun vertailuvuosien luvut olivat niin alhaisia.
+Kriisin jälkeen on ollut nähtävissä toipumista kesän 2020 aikana, varsinkin kotimaisten matkailijoiden keskuudessa, koska rajat ovat olleet suljettuina. Alhaiset matkailijaluvut näkyvät myös vuoden 2021 luvuissa suurina kasvuprosentteina, kun vertailuvuosien luvut olivat niin alhaisia.
 
 Visualisoinnissa käyttäjällä on mahdollisuus valita pudotusvalikosta haluttu matkailijaryhmä ja kuljettamalla osoitinta pitkin visualisointia saada lisätietoa kunkin ajanhetken tapahtumista ja saada tarkempaa tietoa eri maiden matkailijaryhmien yöpymisen kehittymisestä.
 
