@@ -292,7 +292,7 @@ var g = svg.append("g")
             .attr("cx", x(selectedData.x))  
             .attr("cy", y(selectedData.y))
             div
-            .html(selectedData.kuukausi + "<br> Yöpymisiä:" + Math.round(selectedData.value)+  "<br>" + selectedData.teksti)
+            .html(selectedData.kuukausi + "<br> Yöpymisiä:" + Math.round(selectedData.value)+  "<br>" + selectedData.teksti +"<br> <img src='https://www.stat.fi/til/matk/2021/01/matk_2021_01_2021-02-25_tie_001_fi_001.gif'>")
             .style("left", (d3.event.pageX) + "px")		
             .style("top", (d3.event.pageY - 28) + "px");	
          });
