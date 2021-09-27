@@ -364,6 +364,15 @@ var g = svg.append("g")
    
  </script> 
 </div>
+
+### Visualisoinnin sisältö
+
+Visualisoinnissa on esitetty viivakuviolla tasoitettuna aikasarjana yöpymisten määärän kehitys tammikuusta 2018 huhtikuuhun 2021. Tälle aikajaksolle osui yksi viime aikojen suurimmista globaaleista kriiseistä, joka myös näkyy visualisoinissa. Varsinkin ulkomaalaisten matkailijoiden yöpymiset ovat pudonneet erittäin merkittävästi. 
+
+Kriisin jälkeen on ollu nähtävissä toipumista kesän 2020 aikana, varsinkin kotimaisten matkailijoiden keskuudessa, koska rajat ovat olleet suljettuina. Alhaiset matkailijaluvut näkyvät myös vuoden 2021 luvuissa suurina kasvuprosentteina, kun vertailuvuosien luvut olivat niin alhaisia.
+
+Kuviossa 
+
 ### Toistettavuus
 
 Visualisointi on kenen tahansa toistettavissa. Käytetyt aineisto ovat noudettavissa Tilastokeskuksen tietokannoista ja koodi löytyy alta. Visualisointi on toteutettu avoimen lähdekoodin välineillä. Visualisointi on yleistä verkkosivuilla käytettävää koodia, joten visualisointi on käytettävissä kaikilla selaimilla ja myös mobiilissa.
@@ -371,17 +380,6 @@ Visualisointi on kenen tahansa toistettavissa. Käytetyt aineisto ovat noudettav
 ### Saavutettavuus
 
 Visualisoinnin pääsisältö on kuvattu visualisoinnin alle. Kuviossa on alt-tekstit ja visualisointi on avointa lähdekoodia ja kaikkia elementtejä on mahdollista muokata saavutettavaksi saavutettavuusasiantuntijoiden avustuksella. HTML-koodi on lähtökohtaisesti helposti käytettävissä saavutettavuusohjelmistoilla, kuten ruudunlukijoilla.
-
-Tarina (ilmiöt, strategialiitos, tiedon oivaltaminen)
-
-
-
-Kontribuutio nykytilaan (onko uusi avaus, ei vanhan toistoa – voidaan arvioida merkitystä TKn strategiaan)
-
-
-Kuvaile visualisointisi tuomaristolle
-
-
 
 ### Mökkihöperöt-joukkue
 
