@@ -2,11 +2,14 @@
 
 Tämä on joukkue Mökkihöperöiden kilpailutyö Tilastokeskuksen Visualisointihackathonia varten. TIlastokeskuksen Visualisointihackathonin tehtävänä oli tehdä visualisointi pohjautuen TIlastokeskuksen kokeellisiin tilastoihin.
 
-Joukkueemme visualisoi kokeellisista tilastoista vuokramökkitilaston lukuja tekemällä aikasarjaan tasoituksen ja viemällä vuokramökkitilaston ja majoitustilaston luvut viivakuvioon. Kilpailutyö on alla ja sen alle on koottu vastaukset tuomariston esittämiin kysymyksiin ja myös käytetty koodi aineistoineen. Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa. Aikasarjan tasoitus on tehty R-ohjelmistolla.
+Joukkueemme visualisoi kokeellisista tilastoista vuokramökkitilaston lukuja tekemällä aikasarjaan tasoituksen ja viemällä vuokramökkitilaston ja majoitustilaston luvut viivakuvioon. Kilpailutyö on alla ja sen alle on koottu vastaukset tuomariston esittämiin kysymyksiin ja myös käytetty koodi aineistoineen. 
 
-### Selvitä alta miten vuokramökkitilaston ja majoitustilaston luvut muuttuivat ennen koronakriisiä ja sen jälkeen
+Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa. Aikasarjan tasoitus on tehty R-ohjelmistolla. Valitsimme nämä välineet siksi että ne ovat avoimia ja niillä saa näyttäviä visualisointeja. Avoimen lähdekoodin visualisoinnit voivat myös toimia inspiraation lähteenä muille, kuten opiskelijoille ja journalisteille ja se edistää osaltaan Tilastokeskuksen tietojen käyttöä.
+
+### Selvitä alta miten vuokramökkiyöpymiset ja yöpymiset majoitusliikkeissä ja hotelleissa muuttuivat ennen koronakriisiä ja sen jälkeen ja miksi
 
 Kuvion tiedot perustuvat vuokramökkitilaston ja majoitustilaston kuukausittaisiin kysyntätietoihin. Niihin on tehty aikasarjan tasoitus. Ajankohtaa kuvaavat tiedot on kerätty Helsingin sanomista ja vuokramökkitilaston ja majoitustilaston julkaisuista.
+
 <meta charset="utf-8">
 <style>
 body {
@@ -361,8 +364,28 @@ var g = svg.append("g")
    
  </script> 
 </div>
+### 
+
+Tarina (ilmiöt, strategialiitos, tiedon oivaltaminen)
+
+Vaikuttavuus (Tämä tukee tarinaa, saavutetaanko visualisoinnilla haluttu vaikutus, tässä kohdassa painotetaan myös näyttävyyttä)
+
+Selkeys (esitys on ymmärrettävä, voi olla ristiriidassa näyttävän esityksen kanssa – onko saavutettavuus mahdollista saavuttaa)
+
+Kontribuutio nykytilaan (onko uusi avaus, ei vanhan toistoa – voidaan arvioida merkitystä TKn strategiaan)
+
+Toistettavuus (luotettavan visualisoinnin ja tutkimuksen tunnusmerkistöä, ei keksittyä dataa)
+
+Kerro tiimisi työskentelytavoista muutamalla sanalla, listaa tiimisi jäsenet
+
+Kuvaile visualisointisi tuomaristolle
+
+
 
 ### Mökkihöperöt-joukkue
+
+Joukkue kokoontui säännöllisesti hackathonin aikana ja kokoontumisissa edistettiin visualisointityötä. Työtä tehtiin myös iltaisin ja viikonloppuisin. Työ alkoi ideoimalla excelissä ja käytiin läpi mitä aineistolla voi tehdä. Lopullinen visualisointi tuotettiin, kun visio lopputuloksesta oli hahmottunut ja toteutuskelpoisuus varmistunut.
+
 * Ville Keränen
 * Matti Kokkonen
 * Heidi Pukkila
