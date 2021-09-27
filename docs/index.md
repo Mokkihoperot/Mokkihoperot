@@ -364,19 +364,20 @@ var g = svg.append("g")
    
  </script> 
 </div>
-### 
+### Toistettavuus
+
+Visualisointi on kenen tahansa toistettavissa. Käytetyt aineisto ovat noudettavissa Tilastokeskuksen tietokannoista ja koodi löytyy alta. Visualisointi on toteutettu avoimen lähdekoodin välineillä. Visualisointi on yleistä verkkosivuilla käytettävää koodia, joten visualisointi on käytettävissä kaikilla selaimilla ja myös mobiilissa.
+
+### Saavutettavuus
+
+Visualisoinnin pääsisältö on kuvattu visualisoinnin alle. Kuviossa on alt-tekstit ja visualisointi on avointa lähdekoodia ja kaikkia elementtejä on mahdollista muokata saavutettavaksi saavutettavuusasiantuntijoiden avustuksella. HTML-koodi on lähtökohtaisesti helposti käytettävissä saavutettavuusohjelmistoilla, kuten ruudunlukijoilla.
 
 Tarina (ilmiöt, strategialiitos, tiedon oivaltaminen)
 
 Vaikuttavuus (Tämä tukee tarinaa, saavutetaanko visualisoinnilla haluttu vaikutus, tässä kohdassa painotetaan myös näyttävyyttä)
 
-Selkeys (esitys on ymmärrettävä, voi olla ristiriidassa näyttävän esityksen kanssa – onko saavutettavuus mahdollista saavuttaa)
-
 Kontribuutio nykytilaan (onko uusi avaus, ei vanhan toistoa – voidaan arvioida merkitystä TKn strategiaan)
 
-Toistettavuus (luotettavan visualisoinnin ja tutkimuksen tunnusmerkistöä, ei keksittyä dataa)
-
-Kerro tiimisi työskentelytavoista muutamalla sanalla, listaa tiimisi jäsenet
 
 Kuvaile visualisointisi tuomaristolle
 
