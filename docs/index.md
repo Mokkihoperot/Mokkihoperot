@@ -131,8 +131,9 @@ data.forEach( d => {
   d.year= new Date(d.year);
   d.teksti=d.teksti;
   d.kuukausi=d.kuukausi;
+  d.kuvio=d.kuvio;
 })
-var dataFilter = data.map(function(d){return {time: d.year, value: d.Kotimaiset_majoitus, teksti:d.teksti, kuukausi:d.kuukausi} });
+var dataFilter = data.map(function(d){return {time: d.year, value: d.Kotimaiset_majoitus, teksti:d.teksti, kuukausi:d.kuukausi, kuvio:d.kuvio} });
 //määritellään svg-kuvio, parametreinä yllä kerrotut "mitat" ja nimenä html-tiedostossa määritelty "svg"
 var svg = d3.select("#svg")
   .append("svg")
@@ -292,7 +293,7 @@ var g = svg.append("g")
             .attr("cx", x(selectedData.x))  
             .attr("cy", y(selectedData.y))
             div
-            .html(selectedData.kuukausi + "<br> Yöpymisiä:" + Math.round(selectedData.value)+  "<br>" + selectedData.teksti +"<br> <img src='https://www.stat.fi/til/matk/2021/01/matk_2021_01_2021-02-25_tie_001_fi_001.gif'>")
+            .html(selectedData.kuukausi + "<br> Yöpymisiä:" + Math.round(selectedData.value)+  "<br>" + selectedData.teksti +"<br> <img src='"+selectedData.kuukausi+"'>")
             .style("left", (d3.event.pageX) + "px")		
             .style("top", (d3.event.pageY - 28) + "px");	
          });
@@ -318,7 +319,7 @@ var g = svg.append("g")
     function update(selectedGroup) {
 
         // Muodostaan uusi aineisto
-        dataFilter = data.map(function(d){return {time: d.year, value:d[selectedGroup], teksti:d.teksti, kuukausi:d.kuukausi} })
+        dataFilter = data.map(function(d){return {time: d.year, value: d.Kotimaiset_majoitus, teksti:d.teksti, kuukausi:d.kuukausi, kuvio:d.kuvio} });
         console.log(dataFilter);
         // määritellään päivitettävä objekti
         //  var u = svg.selectAll("line")
