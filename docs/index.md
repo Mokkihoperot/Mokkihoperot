@@ -381,9 +381,11 @@ Visualisointi on kenen tahansa toistettavissa. Käytetyt aineisto ovat noudettav
 
 Visualisoinnin pääsisältö on kuvattu visualisoinnin alle. Kuviossa on alt-tekstit ja visualisointi on avointa lähdekoodia ja kaikkia elementtejä on mahdollista muokata saavutettavaksi saavutettavuusasiantuntijoiden avustuksella. HTML-koodi on lähtökohtaisesti helposti käytettävissä saavutettavuusohjelmistoilla, kuten ruudunlukijoilla.
 
-### Mökkihöperöt-joukkue
+### Mökkihöperöt-joukkue ja työskentely
 
 Joukkue kokoontui säännöllisesti hackathonin aikana ja kokoontumisissa edistettiin visualisointityötä. Työtä tehtiin myös iltaisin ja viikonloppuisin. Työ alkoi ideoimalla excelissä ja käytiin läpi mitä aineistolla voi tehdä. Lopullinen visualisointi tuotettiin, kun visio lopputuloksesta oli hahmottunut ja toteutuskelpoisuus varmistunut.
+
+Joukkue koostui Yhteiskuntatilastojen Liikenne ja matkailu -ryhmän henkilöistä ja siihen kuuluivat:
 
 * Ville Keränen
 * Matti Kokkonen
