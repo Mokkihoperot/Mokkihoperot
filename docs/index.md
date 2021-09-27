@@ -50,8 +50,8 @@ body {
 div.tooltip {	
     position: absolute;			
     text-align: left;			
-    width: 400px;					
-    height: 280px;					
+    width: 410px;					
+    height: 410px;					
     padding: 2px;				
     font: 14px sans-serif;		
     background: #ea7404;	
