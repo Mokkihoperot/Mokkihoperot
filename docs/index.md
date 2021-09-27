@@ -371,7 +371,7 @@ Visualisoinnissa on esitetty viivakuviolla tasoitettuna aikasarjana yöpymisten 
 
 Kriisin jälkeen on ollu nähtävissä toipumista kesän 2020 aikana, varsinkin kotimaisten matkailijoiden keskuudessa, koska rajat ovat olleet suljettuina. Alhaiset matkailijaluvut näkyvät myös vuoden 2021 luvuissa suurina kasvuprosentteina, kun vertailuvuosien luvut olivat niin alhaisia.
 
-Kuviossa 
+Visualisoinnissa käyttäjällä on mahdollisuus valita pudotusvalikosta haluttu matkailijaryhmä ja kuljettamalla osoitinta pitkin visualisointia saada lisätietoa kunkin ajanhetken tapahtumista ja saada tarkempaa tietoa eri maiden matkailijaryhmien yöpymisen kehittymisestä.
 
 ### Toistettavuus
 
