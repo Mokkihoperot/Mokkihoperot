@@ -6,7 +6,7 @@ Joukkueemme visualisoi kokeellisista tilastoista vuokramökkitilaston lukuja ja 
 
 ### Selvitä alta miten vuokramökkiyöpymiset ja yöpymiset majoitusliikkeissä ja hotelleissa muuttuivat ennen koronakriisiä ja sen jälkeen ja miksi
 
-Visualisoinnissa on esitetty aikasarjatasoitetut yöpymisluvut vuokramökkien, majoitusliikkeiden ja hotellien osalta. Visualisoinnissa on mahdollista tarkastella yöpymisten määrän muutosta vuodesta 2018 vuoden 2021 huhtikuuhun. Käyttäjälle tarjotaan mahdollisuus vaihtaa visualisoitavaa matkailijaryhmää valinnalla. Käyttäjälle tarjotaan lisätietoja sekä tekstimuodossa että Majoitustilaston verkkosivulta suoraan linkitetyn kuvan muodossa. Tiedot perustuvat vuokramökkitilaston ja majoitustilaston kuukausittaisiin kysyntätietoihin. Niihin on tehty aikasarjan tasoitus. Ajankohtaa kuvaavia lisätietoja on kerätty tilastojulkaisuista, Helsingin sanomista ja Wikipediasta.
+Visualisoinnissa on esitetty aikasarjatasoitetut yöpymisluvut vuokramökkien, majoitusliikkeiden ja hotellien osalta. Visualisoinnissa on mahdollista tarkastella yöpymisten määrän muutosta vuodesta 2018 vuoden 2021 huhtikuuhun. Vaihda visualisoitavaa matkailijaryhmää pudostusvalikosta ja kuljeta osoitinta pitkin kuviota ja saat lisätietoja kunkin ajanhetken tilanteesta.
 
 <meta charset="utf-8">
 <style>
@@ -372,12 +372,13 @@ var g = svg.append("g")
 
 ### Visualisoinnin sisältö
 
-Visualisoinnissa on esitetty viivakuviolla tasoitettuna aikasarjana yöpymisten määärän kehitys tammikuusta 2018 huhtikuuhun 2021. Tälle aikajaksolle osui yksi viime aikojen suurimmista globaaleista kriiseistä, joka myös näkyy visualisoinnissa. Varsinkin ulkomaalaisten matkailijoiden yöpymiset ovat pudonneet erittäin merkittävästi. 
+Visualisoinnissa on esitetty viivakuviolla tasoitettuna aikasarjana yöpymisten määrän kehitys tammikuusta 2018 huhtikuuhun 2021. Tälle aikajaksolle osui yksi viime aikojen suurimmista globaaleista kriiseistä, joka myös näkyy visualisoinnissa. Varsinkin ulkomaalaisten matkailijoiden yöpymiset ovat pudonneet erittäin merkittävästi. 
 
 Kriisin jälkeen on ollut nähtävissä toipumista kesän 2020 aikana, varsinkin kotimaisten matkailijoiden keskuudessa, koska rajat ovat olleet suljettuina. Alhaiset matkailijaluvut näkyvät myös vuoden 2021 luvuissa suurina kasvuprosentteina, kun vertailuvuosien luvut olivat niin alhaisia.
 
-Visualisoinnissa käyttäjällä on mahdollisuus valita pudotusvalikosta haluttu matkailijaryhmä ja kuljettamalla osoitinta pitkin visualisointia saada lisätietoa kunkin ajanhetken tapahtumista ja saada tarkempaa tietoa eri maiden matkailijaryhmien yöpymisen kehittymisestä.
-
+Visualisoinnissa käyttäjällä on mahdollisuus valita pudotusvalikosta haluttu matkailijaryhmä ja saada tarkempaa tietoa eri maiden matkailijaryhmien yöpymisen kehittymisestä.
+Käyttäjälle on lisäksi tarjolla lisätietoja sekä tekstimuodossa että majoitustilaston verkkosivulta suoraan linkitetyn kuvan muodossa. Tiedot perustuvat vuokramökkitilaston ja majoitustilaston kuukausittaisiin kysyntätietoihin. Ajankohtaa kuvaavia lisätietoja on kerätty tilastojulkaisuista, Helsingin sanomista ja Wikipediasta.
+	
 ### Käytetyt välineet
 	
 Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa. Aikasarjan tasoitus on tehty R-ohjelmistolla. Kilpailytyö julkaistiin Github-sivustolla. Valitsimme nämä välineet siksi että ne ovat avoimia ja niillä saa näyttäviä visualisointeja. Avoimen lähdekoodin visualisoinnit voivat myös toimia inspiraation lähteenä muille, kuten opiskelijoille ja journalisteille ja se edistää osaltaan Tilastokeskuksen tietojen käyttöä. Github-sivustoa käytimme siksi että sinne on helppo lisätä Javascriptillä tehdyt kuviot ja tehdä helposti kotisivut sisäänrakennetun kotisivueditorin avulla. Visualisointiin on myös helppo lisätä lisäinformaatiota suoraan muihin verkkosivuihin linkittämällä tai niistä graafeja poimimalla.
