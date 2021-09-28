@@ -215,11 +215,22 @@ var g = svg.append("g")
 	 //} else {
  	 //"0";
 	 //}})
-	.call(d3.axisLeft(y).ticks(6).tickFormat(function(d)
-	{
-            if (d <= 400) {return "red";}
-            else 	{ return "black";}))
-	
+	 .call(d3.axisLeft(y).ticks(6).tickFormat(function(d) { if ((d) > 1000000) {
+ 	 
+	 return parseInt(d / 1000000)+" "+ parseInt((d / 1000)-1000) + " 000";
+	 }
+	 else if ((d) === 1000000) {
+ 	 
+	 return "1 000 000";
+	 }
+	 
+	 else if ((d) < 1000000 && (d) > 0) {
+ 	 
+	 return parseInt(d / 1000) + " 000";
+	 } else {
+ 	 return "0";
+	 }}
+	 ))
 	
         .append("text")
         .attr("class", "axis-title")
