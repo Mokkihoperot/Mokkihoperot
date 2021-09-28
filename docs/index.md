@@ -217,8 +217,8 @@ var g = svg.append("g")
 	 //}})
 	.call(d3.axisLeft(y).ticks(6).tickFormat(function(d)
 	{
-            if (d <= 400) {return "red"}
-            else 	{ return "black" }))
+            if (d <= 400) {return "red";}
+            else 	{ return "black";}))
 	
 	
         .append("text")
