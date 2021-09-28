@@ -56,7 +56,8 @@ div.tooltip {
     width: 410px;					
     height: 410px;					
     padding: 2px;				
-    font: 14px sans-serif;		
+    font: 14px sans-serif;
+    color: black;
     background: #ea7404;	
     border: 0px;		
     border-radius: 8px;			
