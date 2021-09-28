@@ -213,7 +213,7 @@ var g = svg.append("g")
 	 } else if (d > 1000000) {
  	 return parseInt(d / 1000000)+" "+ return parseInt(d / 1000)-1000 + " 000";
 	 } else {
- 	 0";
+ 	 "0";
 	 }
 
 	
