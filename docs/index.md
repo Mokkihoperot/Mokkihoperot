@@ -381,7 +381,7 @@ Käyttäjälle on lisäksi tarjolla lisätietoja sekä tekstimuodossa että majo
 	
 ### Käytetyt välineet
 	
-Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa. Aikasarjan tasoitus on tehty R-ohjelmistolla. Kilpailytyö julkaistiin Github-sivustolla. Valitsimme nämä välineet siksi että ne ovat avoimia ja niillä saa näyttäviä visualisointeja. Avoimen lähdekoodin visualisoinnit voivat myös toimia inspiraation lähteenä muille, kuten opiskelijoille ja journalisteille ja se edistää osaltaan Tilastokeskuksen tietojen käyttöä. Github-sivustoa käytimme siksi että sinne on helppo lisätä Javascriptillä tehdyt kuviot ja tehdä helposti kotisivut sisäänrakennetun kotisivueditorin avulla. Visualisointiin on myös helppo lisätä lisäinformaatiota suoraan muihin verkkosivuihin linkittämällä tai niistä graafeja poimimalla.
+Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa. Aikasarjan tasoitus on tehty R-ohjelmistolla. Kilpailutyö julkaistiin Github-sivustolla. Valitsimme nämä välineet, koska ne ovat avoimia ja niillä saa näyttäviä visualisointeja. Avoimen lähdekoodin visualisoinnit voivat myös toimia matalan kynnyksen moderneina ja ilmaisina työkaluina edistäen osaltaan Tilastokeskuksen tietojen käyttöä teknisten rajapintojen kautta.  Github-sivustoa käytimme siksi että sinne on helppo lisätä Javascriptillä tehdyt kuviot ja tehdä helposti kotisivut sisäänrakennetun kotisivueditorin avulla. Visualisointiin on myös helppo lisätä lisäinformaatiota suoraan muihin verkkosivuihin linkittämällä tai niistä graafeja poimimalla.
 	
 ### Saavutettavuus
 
