@@ -208,15 +208,17 @@ var g = svg.append("g")
         .attr("class", "axis axis--y")
          //.call(d3.axisLeft(y).ticks(6).tickFormat(function(d) { return parseInt(d)}))
 	//.call(d3.axisLeft(y).ticks(6).tickFormat(function(d) { return parseInt(d / 1000) + " 000"; }))
-	.call(d3.axisLeft(y).ticks(6).tickFormat(function(d) { (if d < 1000000) {
- 	 return parseInt(d / 1000) + " 000";}}))
+	//.call(d3.axisLeft(y).ticks(6).tickFormat(function(d) { (if d < 1000000) {
+ 	 //return parseInt(d / 1000) + " 000";}}))
 	 //} (else if (parseInt(d)) > 1000000) {
  	 //return parseInt(d / 1000000)+" "+ return parseInt(d / 1000)-1000 + " 000";
 	 //} else {
  	 //"0";
 	 //}})
-
-	
+	.call(d3.axisLeft(y).ticks(6).tickFormat(function(d)
+	{
+            if (d <= 400) {return "red"}
+            else 	{ return "black" }
 	
 	
         .append("text")
