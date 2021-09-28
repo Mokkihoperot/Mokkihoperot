@@ -322,7 +322,7 @@ var g = svg.append("g")
     function update(selectedGroup) {
 
         // Muodostaan uusi aineisto
-        dataFilter = data.map(function(d){return {time: d.year, value: d.Kotimaiset_majoitus, teksti:d.teksti, kuukausi:d.kuukausi, kuvio:d.kuvio} });
+        dataFilter = data.map(function(d){return {time: d.year, value:d[selectedGroup], teksti:d.teksti, kuukausi:d.kuukausi, kuvio:d.kuvio} });
 
         console.log(dataFilter);
         // määritellään päivitettävä objekti
