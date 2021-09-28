@@ -54,7 +54,7 @@ div.tooltip {
     position: absolute;			
     text-align: left;			
     width: 410px;					
-    height: 410px;					
+    height: 430px;					
     padding: 2px;				
     font: 14px sans-serif;
     color: black;
