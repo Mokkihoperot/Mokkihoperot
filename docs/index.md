@@ -6,7 +6,7 @@ Joukkueemme visualisoi kokeellisista tilastoista vuokramökkitilaston lukuja ja 
 
 ### Selvitä alta miten vuokramökkiyöpymiset ja yöpymiset majoitusliikkeissä ja hotelleissa muuttuivat ennen koronakriisiä ja sen jälkeen ja miksi
 
-Kuvion tiedot perustuvat vuokramökkitilaston ja majoitustilaston kuukausittaisiin kysyntätietoihin. Niihin on tehty aikasarjan tasoitus. Ajankohtaa kuvaavat tiedot on kerätty Helsingin sanomista ja vuokramökkitilaston ja majoitustilaston julkaisuista.
+Visualisoinnissa on esitetty aikasarjatasoitetut yöpymisluvut vuokramökkien, majoitusliikkeiden ja hotellien osalta. Visualisoinnissa on mahdollista tarkastella yöpymisten määrän muutosta vuodesta 2018 vuoden 2021 huhtikuuhun. Käyttäjälle tarjotaan mahdollisuus vaihtaa visualisoitavaa matkailijaryhmää valinnalla. Käyttäjälle tarjotaan lisätietoja sekä tekstimuodossa että Majoitustilaston verkkosivulta suoraan linkitetyn kuvan muodossa. Tiedot perustuvat vuokramökkitilaston ja majoitustilaston kuukausittaisiin kysyntätietoihin. Niihin on tehty aikasarjan tasoitus. Ajankohtaa kuvaavia lisätietoja on kerätty tilastojulkaisuista, Helsingin sanomista ja Wikipediasta.
 
 <meta charset="utf-8">
 <style>
@@ -380,15 +380,15 @@ Visualisoinnissa käyttäjällä on mahdollisuus valita pudotusvalikosta haluttu
 
 ### Käytetyt välineet
 	
-Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa. Aikasarjan tasoitus on tehty R-ohjelmistolla. Kilpailytyö julkaistiin Github-sivustolla. Valitsimme nämä välineet siksi että ne ovat avoimia ja niillä saa näyttäviä visualisointeja. Avoimen lähdekoodin visualisoinnit voivat myös toimia inspiraation lähteenä muille, kuten opiskelijoille ja journalisteille ja se edistää osaltaan Tilastokeskuksen tietojen käyttöä. Github-sivustoa käytimme siksi että sinne on helppo lisätä Javascriptillä tehdyt kuviot ja tehdä helposti kotisivut sisäänrakennetun kotisivueditorin avulla.
+Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa. Aikasarjan tasoitus on tehty R-ohjelmistolla. Kilpailytyö julkaistiin Github-sivustolla. Valitsimme nämä välineet siksi että ne ovat avoimia ja niillä saa näyttäviä visualisointeja. Avoimen lähdekoodin visualisoinnit voivat myös toimia inspiraation lähteenä muille, kuten opiskelijoille ja journalisteille ja se edistää osaltaan Tilastokeskuksen tietojen käyttöä. Github-sivustoa käytimme siksi että sinne on helppo lisätä Javascriptillä tehdyt kuviot ja tehdä helposti kotisivut sisäänrakennetun kotisivueditorin avulla. Visualisointiin on myös helppo lisätä lisäinformaatiota suoraan muihin verkkosivuihin linkittämällä tai niistä graafeja poimimalla.
 	
 ### Saavutettavuus
 
-Visualisoinnin pääsisältö on kuvattu visualisoinnin alle. Kuviossa on alt-tekstit ja visualisointi on avointa lähdekoodia ja kaikkia elementtejä on mahdollista muokata saavutettavaksi saavutettavuusasiantuntijoiden avustuksella. HTML-koodi on lähtökohtaisesti helposti käytettävissä saavutettavuusohjelmistoilla, kuten ruudunlukijoilla.
+Visualisoinnin pääsisältö on kuvattu visualisoinnin alle. Kuvioissa on alt-tekstit ja visualisointi on avointa lähdekoodia ja kaikkia elementtejä on mahdollista muokata saavutettavaksi saavutettavuusasiantuntijoiden avustuksella. HTML-koodi on lähtökohtaisesti helposti käytettävissä saavutettavuusohjelmistoilla, kuten ruudunlukijoilla.
 
 ### Mökkihöperöt-joukkue ja työskentely
 
-Joukkue kokoontui säännöllisesti hackathonin aikana ja kokoontumisissa edistettiin visualisointityötä. Työtä tehtiin myös iltaisin ja viikonloppuisin. Työ alkoi ideoimalla excelissä ja käytiin läpi mitä aineistolla voi tehdä. Lopullinen visualisointi tuotettiin, kun visio lopputuloksesta oli hahmottunut ja toteutuskelpoisuus varmistunut.
+Joukkue kokoontui säännöllisesti hackathonin aikana ja kokoontumisissa edistettiin visualisointityötä. Työtä tehtiin myös iltaisin ja viikonloppuisin. Työ alkoi ideoimalla Excelissä ja käytiin läpi mitä aineistolla voi tehdä. Lopullinen visualisointi tuotettiin, kun visio lopputuloksesta oli hahmottunut ja toteutuskelpoisuus varmistunut.
 
 Joukkue koostui Yhteiskuntatilastojen Liikenne ja matkailu -ryhmän henkilöistä ja siihen kuuluivat:
 
