@@ -2,9 +2,7 @@
 
 Tämä on joukkue Mökkihöperöiden kilpailutyö Tilastokeskuksen Visualisointihackathonia varten. TIlastokeskuksen Visualisointihackathonin tehtävänä oli tehdä visualisointi pohjautuen TIlastokeskuksen kokeellisiin tilastoihin.
 
-Joukkueemme visualisoi kokeellisista tilastoista vuokramökkitilaston lukuja tekemällä aikasarjaan tasoituksen ja viemällä vuokramökkitilaston ja majoitustilaston luvut viivakuvioon. Kilpailutyö on alla ja sen alle on koottu vastaukset tuomariston esittämiin kysymyksiin ja myös käytetty koodi aineistoineen. 
-
-Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa. Aikasarjan tasoitus on tehty R-ohjelmistolla. Kilpailytyö julkaistiin Github-sivustolla. Valitsimme nämä välineet siksi että ne ovat avoimia ja niillä saa näyttäviä visualisointeja. Avoimen lähdekoodin visualisoinnit voivat myös toimia inspiraation lähteenä muille, kuten opiskelijoille ja journalisteille ja se edistää osaltaan Tilastokeskuksen tietojen käyttöä. Github-sivustoa käytimme siksi että sinne on helppo lisätä Javascriptillä tehdyt kuviot ja tehdä helposti kotisivut sisäänrakennetun kotisivueditorin avulla.
+Joukkueemme visualisoi kokeellisista tilastoista vuokramökkitilaston lukuja ja täydensimme lukuja lisäämällä mukaan lukuja majoitustilastosta. Aikasarjoihin tehtiin aikasarjan tasoitus ja tiedot on visualisoitu viivakuvion avulla. Kilpailutyön alle on koottu vastaukset tuomariston esittämiin kysymyksiin ja myös käytetty koodi aineistoineen. 
 
 ### Selvitä alta miten vuokramökkiyöpymiset ja yöpymiset majoitusliikkeissä ja hotelleissa muuttuivat ennen koronakriisiä ja sen jälkeen ja miksi
 
@@ -380,6 +378,10 @@ Kriisin jälkeen on ollut nähtävissä toipumista kesän 2020 aikana, varsinkin
 
 Visualisoinnissa käyttäjällä on mahdollisuus valita pudotusvalikosta haluttu matkailijaryhmä ja kuljettamalla osoitinta pitkin visualisointia saada lisätietoa kunkin ajanhetken tapahtumista ja saada tarkempaa tietoa eri maiden matkailijaryhmien yöpymisen kehittymisestä.
 
+### Käytetyt välineet
+	
+Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa. Aikasarjan tasoitus on tehty R-ohjelmistolla. Kilpailytyö julkaistiin Github-sivustolla. Valitsimme nämä välineet siksi että ne ovat avoimia ja niillä saa näyttäviä visualisointeja. Avoimen lähdekoodin visualisoinnit voivat myös toimia inspiraation lähteenä muille, kuten opiskelijoille ja journalisteille ja se edistää osaltaan Tilastokeskuksen tietojen käyttöä. Github-sivustoa käytimme siksi että sinne on helppo lisätä Javascriptillä tehdyt kuviot ja tehdä helposti kotisivut sisäänrakennetun kotisivueditorin avulla.
+	
 ### Saavutettavuus
 
 Visualisoinnin pääsisältö on kuvattu visualisoinnin alle. Kuviossa on alt-tekstit ja visualisointi on avointa lähdekoodia ja kaikkia elementtejä on mahdollista muokata saavutettavaksi saavutettavuusasiantuntijoiden avustuksella. HTML-koodi on lähtökohtaisesti helposti käytettävissä saavutettavuusohjelmistoilla, kuten ruudunlukijoilla.
