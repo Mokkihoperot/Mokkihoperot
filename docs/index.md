@@ -206,15 +206,7 @@ var g = svg.append("g")
 //lisätään y-akseli kuvioon ja lisätään sinne ominaisuuksia ja tekstiä
     g.append("g")
         .attr("class", "axis axis--y")
-         //.call(d3.axisLeft(y).ticks(6).tickFormat(function(d) { return parseInt(d)}))
-	//.call(d3.axisLeft(y).ticks(6).tickFormat(function(d) { return parseInt(d / 1000) + " 000"; }))
-	//.call(d3.axisLeft(y).ticks(6).tickFormat(function(d) { (if d < 1000000) {
- 	 //return parseInt(d / 1000) + " 000";}}))
-	 //} (else if (parseInt(d)) > 1000000) {
- 	 //return parseInt(d / 1000000)+" "+ return parseInt(d / 1000)-1000 + " 000";
-	 //} else {
- 	 //"0";
-	 //}})
+        
 	 .call(d3.axisLeft(y).ticks(6).tickFormat(function(d) { if ((d) > 1000000) {
  	 
 	 return parseInt(d / 1000000)+" "+ parseInt((d / 1000)-1000) + " 000";
@@ -282,18 +274,7 @@ var g = svg.append("g")
     svg.selectAll("rect")
         .data(dataFilter)
         .on("mouseover.pallo", function() { focus.style("display", null); })
-      //  .on("mouseover.teksti", function() {	
-        //d3.select(this).transition()
-         
-          //.attr('opacity', '.85');
-        //div.transition()
-          //.duration(1)
-          //.style("opacity", 1);
-        //div.html("<p>  Tällä päivällä tapahtui tälläistä"+ Date.d.time+"</p>")	
-        //div.html("<p>  Tällä päivällä tapahtui tälläistä</p>")	
-          //.style("left", (d3.event.pageX) + "px")		
-        //.style("top", (d3.event.pageY - 28) + "px");	
-       //})
+   
         .on("mouseout.pallo", function() { focus.style("display", "none"); })
         .on("mouseout.teksti", function() {		
           d3.select(this).transition()
