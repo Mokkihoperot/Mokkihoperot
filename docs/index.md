@@ -214,7 +214,7 @@ var g = svg.append("g")
  	 return parseInt(d / 1000000)+" "+ return parseInt(d / 1000)-1000 + " 000";
 	 } else {
  	 "0";
-	 }
+	 }})
 
 	
 	
