@@ -337,7 +337,7 @@ var g = svg.append("g")
             .attr("cx", x(selectedData.x))  
             .attr("cy", y(selectedData.y))
             div
-            .html(selectedData.kuukausi + "<br> Yöpymisiä:" + Math.round(Number(selectedData.value).toLocaleString())+  "<br>" + selectedData.teksti +"<br> <img src='"+selectedData.kuvio+"' alt='"+selectedData.altteksti+"' width='407' height='250'> Kuvion lähde: Majoitustilasto, Tilastokeskus") 
+            .html(selectedData.kuukausi + "<br> Yöpymisiä:" + Number(Math.round(selectedData.value)).toLocaleString()+  "<br>" + selectedData.teksti +"<br> <img src='"+selectedData.kuvio+"' alt='"+selectedData.altteksti+"' width='407' height='250'> Kuvion lähde: Majoitustilasto, Tilastokeskus") 
             .style("left", (d3.event.pageX) + "px")		
             .style("top", (d3.event.pageY - 28) + "px");	
          });
