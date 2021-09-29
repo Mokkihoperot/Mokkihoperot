@@ -201,7 +201,7 @@ var g = svg.append("g")
 
 //määritellään x ja y -akseleiden maksimi ja minimiarvot
     x.domain(d3.extent(dataFilter, function(d) { return d.time; }));
-    y.domain([d3.min(data, function(d) { return d.Ulkomaiset_hotelli; }) / 1.005, d3.max(dataFilter, function(d) { return d.value; }) * 1.005]);
+    y.domain([d3.min(data, function(d) { return d.Ulkomaiset_majoitus-20000; }) / 1.005, d3.max(dataFilter, function(d) { return d.value; }) * 1.005]);
 
 
 //lisätään x-akseli kuvioon
