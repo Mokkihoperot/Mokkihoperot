@@ -61,6 +61,13 @@ div.tooltip {
     border-radius: 8px;			
     pointer-events: none;			
 }
+	
+.grid_line {
+  stroke: #D4D8DA;
+  stroke-opacity: 0.3;
+  stroke-width: 0.4px;
+  ;
+}
 
 </style>
 
@@ -166,6 +173,18 @@ var y = d3.scaleLinear().range([height, 0]);
 var line = d3.line()
     .x(function(d) { return x(d.time); })
     .y(function(d) { return y(d.value); });
+	
+// gridlines in x axis function
+function make_x_gridlines() {		
+    return d3.axisBottom(x)
+        .ticks(3)
+}
+
+// gridlines in y axis function
+function make_y_gridlines() {		
+    return d3.axisLeft(y)
+        .ticks(8)
+}
 
 
 // Define the div for the tooltip
@@ -199,7 +218,8 @@ var g = svg.append("g")
         .style("text-anchor", "end")
         .attr("fill", "#5D6971")
         .text("Aika")
-        .style("font-size","35px");;
+        .style("font-size","35px");
+	
 
 //lisätään y-akseli kuvioon ja lisätään sinne ominaisuuksia ja tekstiä
     g.append("g")
@@ -232,6 +252,23 @@ var g = svg.append("g")
         .attr("fill", "#5D6971")
         .text("Yöpymisten määrä")
         .style("font-size","35px");
+	
+// Lisätään x-akselin hilaviivat
+  g.append("g")			
+    .attr("class", "grid_line")
+  .attr("transform", "translate(0," + height + ")")
+  .call(make_x_gridlines()
+    .tickSize(-height)
+   .tickFormat("")
+   )
+
+// Lisätään y-akselin hilaviivat
+	g.append("g")			
+      .attr("class", "grid_line")
+      .call(make_y_gridlines()
+      .tickSize(-width)
+      .tickFormat("")
+      )
 
 //lisätään viiva kuvioon
     g.append("path")
