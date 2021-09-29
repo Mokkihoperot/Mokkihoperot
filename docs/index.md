@@ -424,6 +424,9 @@ Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa. Aikasar
 
 Visualisoinnin pääsisältö on kuvattu visualisoinnin alle. Kuvioissa on alt-tekstit ja visualisointi on avointa lähdekoodia ja kaikkia elementtejä on mahdollista muokata saavutettavaksi saavutettavuusasiantuntijoiden avustuksella. HTML-koodi on lähtökohtaisesti helposti käytettävissä saavutettavuusohjelmistoilla, kuten ruudunlukijoilla.
 
+Kuvioiden "Alt-tekstit" on tuotettu PX-taulujen pohjalta automaattisesti excelissä ja ne ovat muotoa: 
+* Kotimaisten matkailijoiden yöpymiset vähenivät 29 prosenttia. Ulkomaalaisten turistien yöpymisistä kasvoi eniten maasta Viro saapuneiden turistien määrä, -57,1 prosenttia. Eniten väheni maasta Kiina tulleiden turistien määrä, 98,2 prosenttia.
+
 ### Mökkihöperöt-joukkue ja työskentely
 
 Joukkue kokoontui säännöllisesti hackathonin aikana ja kokoontumisissa edistettiin visualisointityötä. Työtä tehtiin myös iltaisin ja viikonloppuisin. Työ alkoi ideoimalla Excelissä ja käytiin läpi mitä aineistolla voi tehdä. Lopullinen visualisointi tuotettiin, kun visio lopputuloksesta oli hahmottunut ja toteutuskelpoisuus varmistunut.
