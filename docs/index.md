@@ -422,7 +422,7 @@ Visualisointityön toteutuksessa on käytetty D3js-javascript-kirjastoa. Aikasar
 	
 ### Saavutettavuus
 
-Visualisoinnin pääsisältö on kuvattu visualisoinnin alle. Kuvioissa on alt-tekstit ja visualisointi on avointa lähdekoodia ja kaikkia elementtejä on mahdollista muokata saavutettavaksi saavutettavuusasiantuntijoiden avustuksella. HTML-koodi on lähtökohtaisesti helposti käytettävissä saavutettavuusohjelmistoilla, kuten ruudunlukijoilla.
+Visualisoinnin pääsisältö on kuvattu visualisoinnin alle. Kuvioissa on alt-tekstit ja visualisointi on avointa lähdekoodia ja kaikkia elementtejä on mahdollista muokata saavutettavaksi saavutettavuusasiantuntijoiden avustuksella. HTML-koodi on lähtökohtaisesti helposti käytettävissä saavutettavuusohjelmistoilla, kuten ruudunlukijoilla. Visualisoinnin värit on otettu Tilastokeskuksen graafisesta ohjeesta, joten värien osalta saavutettavuus on kunnossa.
 
 Kuvioiden "Alt-tekstit" on tuotettu PX-taulujen pohjalta automaattisesti excelissä ja ne ovat muotoa: 
 * Kotimaisten matkailijoiden yöpymiset vähenivät 29 prosenttia. Ulkomaalaisten turistien yöpymisistä kasvoi eniten maasta Viro saapuneiden turistien määrä, -57,1 prosenttia. Eniten väheni maasta Kiina tulleiden turistien määrä, 98,2 prosenttia.
