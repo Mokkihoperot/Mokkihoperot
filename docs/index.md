@@ -216,9 +216,10 @@ var g = svg.append("g")
         .attr("x", 280)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
-        .attr("fill", "#5D6971")
+        //.attr("fill", "#5D6971")
+	.attr("fill", "black")
         .text("Aika")
-        .style("font-size","35px");
+        .style("font-size","25px");
 
 //viiva
       g.append("svg:line")
@@ -261,9 +262,10 @@ var g = svg.append("g")
         .attr("x", -180)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
-        .attr("fill", "#5D6971")
+	//.attr("fill", "#5D6971")
+        .attr("fill", "black")
         .text("Yöpymisten määrä")
-        .style("font-size","35px");
+        .style("font-size","25px");
 	
 // Lisätään x-akselin hilaviivat
   g.append("g")			
