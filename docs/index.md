@@ -221,7 +221,7 @@ var g = svg.append("g")
 	.attr("fill", "black")
         .text("Aika")
         .style("font-size","25px");
-	.attr ("font", "Architects Daughter") ;
+	
 //viiva
       g.append("svg:line")
       .attr("class", "today")
@@ -260,7 +260,7 @@ var g = svg.append("g")
         .attr("class", "axis-title")
         .attr("transform", "rotate(-90)")
         .attr("y", -90)
-        .attr("x", -190)
+        .attr("x", -220)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
 	//.attr("fill", "#5D6971")
