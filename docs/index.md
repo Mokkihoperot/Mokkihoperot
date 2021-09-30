@@ -292,6 +292,15 @@ var g = svg.append("g")
         .datum(dataFilter)
         .attr("class", "line")
         .attr("d", line);
+	
+//lisätään punainen laatikko	
+g.append("rect")
+    .attr("x", x(352) + x.bandwidth() / 2)
+    .attr("y", 0)
+    .attr("width", x(x.domain()[x.domain().length - 1]) - x(352) + x.bandwidth() / 2)
+    .attr("height", height)
+    .attr("fill", "red")
+    .attr("opacity", 0.15);
 
 //määritellään viivaa seuraava ja hoveroiva tooltippi
     var focus = g.append("g")
