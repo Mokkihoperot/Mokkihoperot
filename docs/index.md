@@ -203,15 +203,6 @@ var g = svg.append("g")
 //määritellään x ja y -akseleiden maksimi ja minimiarvot
     x.domain(d3.extent(dataFilter, function(d) { return d.time; }));
     y.domain([d3.min(data, function(d) { return d.Ulkomaiset_majoitus-20000; }) / 1.005, d3.max(dataFilter, function(d) { return d.value; }) * 1.005]);
-//lisätään punainen laatikko	
-g.append("svg:rect")
-	.attr("class", "laatikko")
-      .attr("x1", (900))
-      .attr("y1", 618)
-      .attr("x2", (352))
-      .attr("y2", 0)
-    .attr("fill", "red")
-    //.attr("opacity", 0.15);
 
 //lisätään x-akseli kuvioon
     g.append("g")
@@ -283,6 +274,17 @@ g.append("svg:rect")
       .tickSize(-width)
       .tickFormat("")
       )
+	
+//lisätään punainen laatikko	
+g.append("svg:rect")
+	.attr("class", "laatikko")
+      .attr("x1", (352))
+      .attr("y1", (0))
+      .attr("x2", (900))
+      .attr("y2", (618))
+    .attr("fill", "red")
+    //.attr("opacity", 0.15);
+
 //viiva
       g.append("svg:line")
       .attr("class", "today")
