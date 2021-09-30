@@ -223,17 +223,6 @@ var g = svg.append("g")
         .text("Aika")
         .style("font-size","25px");
 	
-//viiva
-      g.append("svg:line")
-      .attr("class", "today")
-      .attr("x1", (352))
-      .attr("y1", 618)
-      .attr("x2", (352))
-      .attr("y2", 0)
-      .attr("stroke", "black")
-	//lisätty
-      .attr("stroke-dasharray", "4")
-      .style("stroke-width", 1.5);
 
 
 //lisätään y-akseli kuvioon ja lisätään sinne ominaisuuksia ja tekstiä
@@ -286,21 +275,34 @@ var g = svg.append("g")
       .tickSize(-width)
       .tickFormat("")
       )
-
+//viiva
+      g.append("svg:line")
+      .attr("class", "today")
+      .attr("x1", (352))
+      .attr("y1", 618)
+      .attr("x2", (352))
+      .attr("y2", 0)
+      .attr("stroke", "black")
+	//lisätty
+      .attr("stroke-dasharray", "4")
+      .style("stroke-width", 1.5);
+//lisätään punainen laatikko	
+g.append("rect")
+      .attr("x1", (352))
+      .attr("y1", 618)
+      .attr("x2", (352))
+      .attr("y2", 0)
+    .attr("fill", "red")
+    .attr("opacity", 0.15);
+	
+	
 //lisätään viiva kuvioon
     g.append("path")
         .datum(dataFilter)
         .attr("class", "line")
         .attr("d", line);
 	
-//lisätään punainen laatikko	
-g.append("rect")
-    .attr("x", x(352) + x.bandwidth() / 2)
-    .attr("y", 0)
-    .attr("width", width)
-    .attr("height", height)
-    .attr("fill", "red")
-    .attr("opacity", 0.15);
+
 
 //määritellään viivaa seuraava ja hoveroiva tooltippi
     var focus = g.append("g")
