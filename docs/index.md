@@ -213,7 +213,7 @@ var g = svg.append("g")
         .attr("class", "axis-title")
         
         .attr("y", 40)
-        .attr("x", 280)
+        .attr("x", 290)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
         //.attr("fill", "#5D6971")
