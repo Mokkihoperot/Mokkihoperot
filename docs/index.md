@@ -224,9 +224,9 @@ var g = svg.append("g")
       g.append("svg:line")
       .attr("class", "today")
       .attr("x1", (305))
-      .attr("y1", 640)
+      .attr("y1", 630)
       .attr("x2", (305))
-      .attr("y2", 400)
+      .attr("y2", 200)
       .attr("stroke", "black")
       .style("stroke-width", 2);
 
