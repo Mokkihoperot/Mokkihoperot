@@ -287,10 +287,10 @@ var g = svg.append("g")
       .attr("stroke-dasharray", "4")
       .style("stroke-width", 1.5);
 //lisätään punainen laatikko	
-g.append("rect")
+g.append("svg:rect")
       .attr("x1", (352))
       .attr("y1", 618)
-      .attr("x2", (352))
+      .attr("x2", (900))
       .attr("y2", 0)
     .attr("fill", "red")
     .attr("opacity", 0.15);
