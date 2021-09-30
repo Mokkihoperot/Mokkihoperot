@@ -288,6 +288,7 @@ var g = svg.append("g")
       .style("stroke-width", 1.5);
 //lisätään punainen laatikko	
 g.append("svg:rect")
+	.attr("class", "laatikko")
       .attr("x1", (352))
       .attr("y1", 618)
       .attr("x2", (900))
