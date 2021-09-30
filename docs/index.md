@@ -4,9 +4,9 @@ Tämä on joukkue Mökkihöperöiden kilpailutyö Tilastokeskuksen Visualisointi
 
 Joukkueemme visualisoi kokeellisista tilastoista vuokramökkitilaston lukuja ja täydensimme lukuja lisäämällä mukaan lukuja majoitustilastosta. Aikasarjoihin tehtiin aikasarjan tasoitus ja tiedot on visualisoitu viivakuvion avulla. Kilpailutyön alle on koottu vastaukset tuomariston esittämiin kysymyksiin ja myös käytetty koodi aineistoineen. 
 
-### Selvitä alta miten vuokramökkiyöpymiset ja yöpymiset majoitusliikkeissä ja hotelleissa muuttuivat ennen koronakriisiä ja sen jälkeen ja miksi
+### Selvitä alta miten vuokramökkiyöpymiset ja yöpymiset hotelleissa sekä muissa majoitusliikkeissä muuttuivat ennen koronakriisiä ja sen jälkeen ja miksi
 
-Visualisoinnissa on esitetty aikasarjatasoitetut yöpymisluvut vuokramökkien, majoitusliikkeiden ja hotellien osalta. Visualisoinnissa on mahdollista tarkastella yöpymisten määrän muutosta vuodesta 2018 vuoden 2021 huhtikuuhun. Vaihda visualisoitavaa matkailijaryhmää pudostusvalikosta ja kuljeta osoitinta pitkin kuviota ja saat lisätietoja kunkin ajanhetken tilanteesta.
+Visualisoinnissa on esitetty aikasarjatasoitetut yöpymisluvut vuokramökkien sekä hotellien ja muiden majoitusliikkeiden osalta. Visualisoinnissa on mahdollista tarkastella yöpymisten määrän muutosta vuodesta 2018 vuoden 2021 huhtikuuhun. Vaihda visualisoitavaa matkailijaryhmää pudostusvalikosta ja kuljeta osoitinta pitkin kuviota ja saat lisätietoja kunkin ajanhetken tilanteesta.
 
 <meta charset="utf-8">
 <style>
