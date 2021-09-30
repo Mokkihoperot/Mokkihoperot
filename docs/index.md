@@ -20,7 +20,7 @@ body {
 .axis path,
 .axis line {
   fill: none;
-  stroke: #D4D8DA;
+  stroke: black;
   stroke-width: 2px;
   shape-rendering: crispEdges;
 }
