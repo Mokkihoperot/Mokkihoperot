@@ -276,7 +276,7 @@ var g = svg.append("g")
       )
 	
 //lisätään punainen laatikko	
-g.append("svg:rect")
+g.append("g")
 	.attr("class", "laatikko")
     .attr("x", x(352))
     .attr("y", 0)
