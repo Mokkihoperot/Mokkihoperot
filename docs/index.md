@@ -228,6 +228,8 @@ var g = svg.append("g")
       .attr("x2", (305))
       .attr("y2", 200)
       .attr("stroke", "black")
+	//lisätty
+      .attr("stroke-dasharray", "4")
       .style("stroke-width", 2);
 
 
