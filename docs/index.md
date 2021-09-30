@@ -223,9 +223,9 @@ var g = svg.append("g")
 //viiva
       g.append("svg:line")
       .attr("class", "today")
-      .attr("x1", (355))
-      .attr("y1", 615)
-      .attr("x2", (355))
+      .attr("x1", (350))
+      .attr("y1", 618)
+      .attr("x2", (350))
       .attr("y2", 0)
       .attr("stroke", "black")
 	//lisätty
