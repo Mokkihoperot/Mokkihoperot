@@ -275,15 +275,7 @@ var g = svg.append("g")
       .tickFormat("")
       )
 	
-//lisätään punainen laatikko	
-g.append("g")
-	.attr("class", "laatikko")
-    .attr("x", x(352))
-    .attr("y", 0)
-    .attr("width", width)
-    .attr("height", height)
-    .attr("fill", "red")
-    //.attr("opacity", 0.15);
+
 
 //viiva
       g.append("svg:line")
