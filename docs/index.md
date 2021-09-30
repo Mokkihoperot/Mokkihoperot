@@ -14,7 +14,7 @@ body {
   background-color: #F1F3F3    
 }
 .axis {
-	font: 10px sans-serif;
+	font: 12px sans-serif;
 }
 
 .axis path,
