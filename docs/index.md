@@ -289,9 +289,9 @@ var g = svg.append("g")
 //lisätään punainen laatikko	
 g.append("svg:rect")
 	.attr("class", "laatikko")
-      .attr("x1", (352))
+      .attr("x1", (900))
       .attr("y1", 618)
-      .attr("x2", (900))
+      .attr("x2", (352))
       .attr("y2", 0)
     .attr("fill", "red")
     .attr("opacity", 0.15);
