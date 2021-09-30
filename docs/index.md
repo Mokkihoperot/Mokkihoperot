@@ -219,7 +219,17 @@ var g = svg.append("g")
         .attr("fill", "#5D6971")
         .text("Aika")
         .style("font-size","35px");
-	
+
+//viiva
+      g.append("svg:line")
+      .attr("class", "today")
+      .attr("x1", (305))
+      .attr("y1", 660)
+      .attr("x2", (305))
+      .attr("y2", 400)
+      .attr("stroke", "black")
+      .style("stroke-width", 2);
+
 
 //lisätään y-akseli kuvioon ja lisätään sinne ominaisuuksia ja tekstiä
     g.append("g")
@@ -415,6 +425,10 @@ Kriisin jälkeen on ollut nähtävissä toipumista kesän 2020 aikana, varsinkin
 
 Visualisoinnissa käyttäjällä on mahdollisuus valita pudotusvalikosta haluttu matkailijaryhmä ja saada tarkempaa tietoa eri maiden matkailijaryhmien yöpymisen kehittymisestä.
 Käyttäjälle on lisäksi tarjolla lisätietoja sekä tekstimuodossa että majoitustilaston verkkosivulta suoraan linkitetyn kuvan muodossa. Tiedot perustuvat vuokramökkitilaston ja majoitustilaston kuukausittaisiin kysyntätietoihin. Ajankohtaa kuvaavia lisätietoja on kerätty tilastojulkaisuista, Helsingin sanomista ja Wikipediasta.
+	
+### Kausitasoitus
+	
+Kausitasoituksesta: käytettiin Tramo/Seats -menetelmää ja aikarajotteiden takia ei alettu estimoimaan parametreja käsin vaan annettiin r-funktion määrittää fiksuimmat parametrit. Perinteisesti ajatellaan että aikasarja koostuu kolmesta komponentista: kausivaihtelu, trendi ja satunnaisvaihtelu. Kun parametrit estimoidaan automaattisesti, malli pyrkii minimoimaan satunnaisvaihtelun määrää. Dataa annettiin mallille vain 2018 eteenpäin ja suuri osa havainnosta on tullut poikkeusaikana. Ulkomaisten yöpymisten määrä on ollut poikkeuksellisen alhaista ja kun niistä vähennetään mallin arvioimat kausitasoitus- ja trendikomponentit, niin tiputaan nollan alapuolelle. Jos tätä kehitellään pidemmälle, niin sitten mallia voitaisiin parannella niin ettei näin kävisi.
 	
 ### Käytetyt välineet
 	
