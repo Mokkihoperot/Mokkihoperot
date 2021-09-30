@@ -203,7 +203,15 @@ var g = svg.append("g")
 //määritellään x ja y -akseleiden maksimi ja minimiarvot
     x.domain(d3.extent(dataFilter, function(d) { return d.time; }));
     y.domain([d3.min(data, function(d) { return d.Ulkomaiset_majoitus-20000; }) / 1.005, d3.max(dataFilter, function(d) { return d.value; }) * 1.005]);
-
+//lisätään punainen laatikko	
+g.append("svg:rect")
+	.attr("class", "laatikko")
+      .attr("x1", (900))
+      .attr("y1", 618)
+      .attr("x2", (352))
+      .attr("y2", 0)
+    .attr("fill", "red")
+    //.attr("opacity", 0.15);
 
 //lisätään x-akseli kuvioon
     g.append("g")
@@ -286,15 +294,7 @@ var g = svg.append("g")
 	//lisätty
       .attr("stroke-dasharray", "4")
       .style("stroke-width", 1.5);
-//lisätään punainen laatikko	
-g.append("svg:rect")
-	.attr("class", "laatikko")
-      .attr("x1", (900))
-      .attr("y1", 618)
-      .attr("x2", (352))
-      .attr("y2", 0)
-    .attr("fill", "red")
-    .attr("opacity", 0.15);
+
 	
 	
 //lisätään viiva kuvioon
