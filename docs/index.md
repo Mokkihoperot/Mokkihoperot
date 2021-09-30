@@ -297,7 +297,7 @@ var g = svg.append("g")
 g.append("rect")
     .attr("x", x(352) + x.bandwidth() / 2)
     .attr("y", 0)
-    .attr("width", x(x.domain()[x.domain().length - 1]) - x(352) + x.bandwidth() / 2)
+    .attr("width", width)
     .attr("height", height)
     .attr("fill", "red")
     .attr("opacity", 0.15);
