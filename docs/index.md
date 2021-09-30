@@ -226,11 +226,11 @@ var g = svg.append("g")
       .attr("x1", (305))
       .attr("y1", 630)
       .attr("x2", (305))
-      .attr("y2", 200)
+      .attr("y2", 0)
       .attr("stroke", "black")
 	//lisätty
       .attr("stroke-dasharray", "4")
-      .style("stroke-width", 2);
+      .style("stroke-width", 1.5);
 
 
 //lisätään y-akseli kuvioon ja lisätään sinne ominaisuuksia ja tekstiä
